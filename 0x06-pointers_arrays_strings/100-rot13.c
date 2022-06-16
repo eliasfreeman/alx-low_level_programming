@@ -4,7 +4,7 @@ include "main.h"
  * @s: is the input
  * Return: the encoded string
  */
-char *rot13(char *)
+char *rot13(char *s)
 {
 	int i1 = 0, i2;
 	char alphabet[] =
